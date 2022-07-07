@@ -1,0 +1,36 @@
+/* .services-submenu {
+    width: 10rem;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+}
+
+.services-submenu  ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-submenu ul li {
+    margin: 0em 1em;
+} */
+
+/* ul {
+    display: flex;
+
+    .nav-item{
+        margin: 0em 1em;
+        cursor: pointer;
+
+        
+        .link{
+            font-size: 0.62em;
+            color: #000;
+            letter-spacing: 0.1em;
+            transition: all 200ms;
+        }
+
+    }
+
+    .link:hover {
+        color: rgb(62, 181, 240);
+    } */

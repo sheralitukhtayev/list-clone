@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import style from 'styled-components'
 import { AiOutlineSearch } from 'react-icons/ai'
+import { Link } from "react-router-dom"
+import {navItems} from "./NavItems"
+// import { Dropdown } from "./Dropdown";
 
 function NavMenu() {
   return (
@@ -10,22 +13,25 @@ function NavMenu() {
         </NavTop>
     <NavBar>
         <Logo> 
-            <img src="/images/logo.png" alt="" />
+            <Link exact to="/">
+                <img src="/images/logo.png" alt="" />
+            </Link>
         </Logo>
         <NavItems>
-            <ul>
-                <li><a href="#">О КОМПАНИИ</a></li>
-                <li><a href="#">ЛИФТЫ</a></li>
-                <li><a href="#">ОБОРУДОВАНИЕ</a></li>
-                <li><a href="#">УСЛУГИ</a></li>
-                <li><a href="#">ТЕХПОДДЕРЖКА</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
-                <li><AiOutlineSearch /></li>
+            <ul className="nav-items" >
+                {navItems.map(item => {
+                    return (
+                        <li key={item.id} className={item.cName}>
+                            <Link className="link" exact to={item.path}>{item.title}</Link>
+                        </li>
+                    ) 
+                })}
             </ul>
         </NavItems>
     </NavBar>
+    {/* <Dropdown /> */}
 </Nav> 
-  )
+  ) 
 }
 
 export default NavMenu
@@ -76,19 +82,21 @@ const NavItems = style.div `
     ul {
         display: flex;
 
-        li{
+        .nav-item{
             margin: 0em 1em;
             cursor: pointer;
+
             
-            a{
+            .link{
                 font-size: 0.62em;
                 color: #000;
                 letter-spacing: 0.1em;
                 transition: all 200ms;
             }
+
         }
 
-        a:hover {
+        .link:hover {
             color: rgb(62, 181, 240);
         }
     }

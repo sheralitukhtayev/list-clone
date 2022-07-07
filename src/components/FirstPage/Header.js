@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import style from 'styled-components'
-import NavMenu from './NavMenu'
 import { BsTelephoneFill } from "react-icons/bs";
 import { FcDocument } from "react-icons/fc"
 import { FaMoneyBillWave, FaHandshake, FaCalendarCheck, FaRegLightbulb } from "react-icons/fa"
@@ -11,7 +10,6 @@ import { IoMdSettings } from "react-icons/io";
 function Header() {
   return (
     <Nav>
-        <NavMenu />
         <Picture> 
           <PictureText>
             <h1>
@@ -635,7 +633,7 @@ const Second = style.div`
   }
    
   p{ 
-    font-size: 0.6em;
+    font-size: 0.6em; 
    }
 
 `
