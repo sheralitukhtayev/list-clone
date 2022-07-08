@@ -3,7 +3,7 @@ import style from 'styled-components'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { Link } from "react-router-dom"
 import {navItems} from "./NavItems"
-// import { Dropdown } from "./Dropdown";
+import Dropdown from "./Dropdown"
 
 function NavMenu() {
   return (
@@ -12,6 +12,7 @@ function NavMenu() {
             <p>+7(495)550-53-53 | info@citylift.ru</p>
         </NavTop>
     <NavBar>
+        <div>
         <Logo> 
             <Link exact to="/">
                 <img src="/images/logo.png" alt="" />
@@ -28,8 +29,9 @@ function NavMenu() {
                 })}
             </ul>
         </NavItems>
+        </div>
+        <Dropdown />
     </NavBar>
-    {/* <Dropdown /> */}
 </Nav> 
   ) 
 }
@@ -60,9 +62,16 @@ const NavTop = style.div `
 
 const NavBar = style.div`
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+
+    div{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 
 
 `
