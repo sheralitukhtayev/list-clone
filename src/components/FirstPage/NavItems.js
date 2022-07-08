@@ -109,7 +109,7 @@ export const serviceDropdown = [
     {
         id: 5,
         title: "Модельный ряд",
-        path: "/lineup",
+        path: "/line-up",
         cName: "submenu-item",
     }
 ]
