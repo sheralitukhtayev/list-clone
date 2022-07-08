@@ -69,17 +69,12 @@ export const serviceDropdown = [
         cName: "submenu-item",
     },{
         id: 3,
-        title: "Приводы дверей",
-        path: "/equipments/door-drives",
-        cName: "submenu-item",
-    },{
-        id: 3,
         title: "Системы управления",
         path: "/equipments/control-system",
         cName: "submenu-item",
     },{
         id: 4,
-        title: "Системы управления",
+        title: "Проектирование",
         path: "/services/design",
         cName: "submenu-item",
     },{

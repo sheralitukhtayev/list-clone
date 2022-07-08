@@ -39,10 +39,10 @@ function App() {
             <Route exact path="/lifts/by-appointment" component={ByAppointment} />
             <Route exact path="/lifts/finish-options" component={FinishOptions} /> 
             <Route exact path="/equipments/winches" component={Winches} />
-            <Route exact path="/equipments/hydrualic-power-units" component={HydraulicPowerUnits} />
+            <Route exact path="/equipments/hydraulic-power-units" component={HydraulicPowerUnits} />
             <Route exact path="/equipments/control-system" component={ControlSystem} />
             <Route exact path="/services/design" component={Design} />
-            <Route exact path="/services/mouting" component={Mounting} />
+            <Route exact path="/services/mounting" component={Mounting} />
             <Route exact path="/services/modernization" component={Modernization} />
             <Route exact path="/services/metal-frame-mines" component={MetalFramesMines} />
             <Route exact path="/line-up" component={LineUp} />
