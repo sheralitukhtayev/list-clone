@@ -36,7 +36,7 @@ const HeadTitle = style.div `
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -62,7 +62,7 @@ const Content = style.div `
     }
 
     p {
-        font-size: 0.6em;
+        font-size: 1.2em;
         color: rgb(127, 123, 125);
         font-weight: 300;
         line-height: 1.3em;

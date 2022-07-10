@@ -53,7 +53,7 @@ const NavTop = style.div `
     color: rgb(242, 236, 246);
     
     p {
-        font-size: 0.60em;
+        font-size: 0.8em;
         right: 0;
         text-align: right;
         padding: 0.1em 3em;
@@ -66,11 +66,18 @@ const NavBar = style.div`
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    border-bottom: 0.15em solid rgb(62, 181, 240);
+
+    
 
     div{
-        display: flex;
-        align-items: center;
-        text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 95vw;
+    margin: 0 auto;
+    justify-content: space-between;
     }
 
 
@@ -80,16 +87,23 @@ const Logo = style.div `
     padding-left: 2em;
 
     img {
-        width: 13em;
+        width: 15em;
     }
 `
 
 const NavItems = style.div `
     padding-right: 3em;
+    display: flex;
+    flex-direction: column;
 
 
     ul {
+        width: 50vw;
         display: flex;
+        flex-direction: row;
+        align-item: center;
+        text-align: center;
+        justify-content: space-between;
 
         .nav-item{
             margin: 0em 1em;
@@ -97,7 +111,7 @@ const NavItems = style.div `
 
             
             .link{
-                font-size: 0.62em;
+                font-size: 1em;
                 color: #000;
                 letter-spacing: 0.1em;
                 transition: all 200ms;

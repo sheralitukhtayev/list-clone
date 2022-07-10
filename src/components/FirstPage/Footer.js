@@ -71,7 +71,7 @@ const Footerr = style.div `
 
     h4 {
         color: rgb(62, 181, 240); 
-        font-size: 0.7em;
+        font-size: 1.3em;
         font-weight: 600;
     }
 
@@ -83,19 +83,20 @@ const More = style.div `
     width: 28%;
 
     img {
-        width: 8em;
+        width: 13em;
     }
 
     p {
-        color: rgb(51, 51, 51);
-        font-size: 0.6em;
+        color: rgb(100, 100, 100);
+        font-size: 1.3em;
         margin: 1em 0;
     }
 
     button {
-        padding: 0.5em 2em;
+        padding: 0.7em 2em;
         background-color: rgb(62, 181, 240); 
         border: none;   
+        font-size: 1.2em;
     }
 `
 
@@ -108,12 +109,15 @@ const Contact = style.div `
 
     ul li {
         text-align: left;
+        margin: 1em 0em;
     }
 
     ul li a{
         color: gray;
         font-weight: 500;
-        font-size: 0.5em;
+        font-size: 1em;
+        margin-left: 1em;
+        
     }
 `
 

@@ -80,7 +80,7 @@ const HeaderTitle = style.div `
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 `
@@ -95,10 +95,12 @@ const Content = style.div `
         color: rgb(60, 60, 60);
         font-weight: 500;
         text-align: center;
+        font-size: 2em;
+        margin: 0.5em 0;
     }
 
     ul li {
-        font-size: 0.6em;
+        font-size: 1em;
         color: rgb(60, 60, 60);
         line-height: 2em;
         list-style-type: circle;
@@ -110,7 +112,7 @@ const Content = style.div `
 
     p {
         margin: 1em 0;
-        font-size: 0.6em;
+        font-size: 1em;
         color: rgb(60, 60, 60);
         line-height: 2em;
 
@@ -133,6 +135,11 @@ const Equip = style.div`
     justify-content: space-between;
     text-align: center;
     align-items: center;
+
+    h5{
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
 
     img {
        width: 100%;

@@ -96,7 +96,7 @@ const Title = style.div`
 
     h3{ 
         color: rgb(70, 70, 70);
-        font-size: 0.8em;
+        font-size: 1.3em;
         font-weight: 400;
         margin: 0.5em 0;
     }
@@ -107,7 +107,7 @@ const Title = style.div`
         margin: 1.5em 0;
 
         p{
-            font-size: 0.6em;
+            font-size: 1em;
             color: rgb(70, 70, 70);
             font-weight: 500;
             margin: 0 1em;
@@ -122,9 +122,9 @@ const Input = style.div`
     flex-direction: column;
 
     input{
-        padding: 0.7em 1em;
+        padding: 1em 1em;
         margin: 1em 0;
-        font-size: 0.5em;
+        font-size: 1esm;
         color: rgb(40, 40, 40);
         border: 0.3px solid rgb(221, 221, 221);
         border-radius: 0.3em;
@@ -144,19 +144,19 @@ const Input = style.div`
 
     button {
         width: 100%;
-        padding: 0.5em 0;
+        padding: 1.5em 0;
         background-color: rgb(62, 181, 240);
         border: none;
 
         h4 {
             color: rgb(50, 50, 50);
             font-weight: 400;
-            font-size: 0.7em;
+            font-size: 1.2em;
         }
     }
 
     p {
-        font-size: 0.48em;
+        font-size: 1em;
         color: rgb(71, 71, 71);
         text-align: center;
         margin: 1em 0;

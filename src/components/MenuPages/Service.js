@@ -44,7 +44,7 @@ const HeaderTitle = style.div `
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -68,7 +68,7 @@ const FirstContent = style.div`
 
     p {
         width: 80%;
-        font-size: 0.6em;
+        font-size: 1em;
         color: rgb(60, 60, 60);
     }
 
@@ -79,7 +79,7 @@ const SecondContent = style.div `
     margin: 0 auto;
 
     p {
-        font-size: 0.6em;
+        font-size: 1em;
         color: rgb(60, 60, 60);
     }
 

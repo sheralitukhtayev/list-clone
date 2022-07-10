@@ -58,7 +58,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -71,14 +71,14 @@ const Content = style.div`
     padding: 2em 0;
 
     h5 {
-        font-size: 0.5em;
+        font-size: 1.2em;
         color: rgb(50, 50, 50);
         margin: 1.5em 0;
     }
 
     li{
         list-style-type: circle;
-        font-size: 0.6em;
+        font-size: 1em;
         line-height: 1.8em;
     }
 

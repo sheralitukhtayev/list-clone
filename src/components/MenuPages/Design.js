@@ -47,7 +47,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -61,7 +61,7 @@ const Content = style.div`
     padding: 2em 0;
 
     h3 {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
         color: rgb(80, 80, 80);
         text-align: center;
@@ -69,14 +69,14 @@ const Content = style.div`
     }
 
     p {
-        font-size: 0.6em;
+        font-size: 1.2em;
         color: rgb(80, 80, 80);
         line-height: 1.8em;
         padding-bottom: 1em;
     }
 
     li{
-        font-size: 0.6em;
+        font-size: 1em;
         color: rgb(70, 70, 70);
         list-style-type: circle;
         padding-left: 1em;

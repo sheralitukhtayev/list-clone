@@ -62,7 +62,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -76,17 +76,17 @@ const Content = style.div`
 
     p{
         margin: 1em 0;
-        font-size: 0.6em;
+        font-size: 1.2em;
 
         span {
-            font-weight: 700;
+            font-weight: 600;
         }
     }
 
     li {
         list-style-type: circle;
         margin: 0.5em 0;
-        font-size: 0.6em;
+        font-size: 1em;
     }
 `
 
@@ -106,6 +106,7 @@ const Images = style.div`
 
         h3{
             font-weight: 300;
+            font-size: 2em;
         }
     }
 

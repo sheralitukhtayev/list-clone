@@ -106,7 +106,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -121,25 +121,32 @@ const Content = style.div`
     align-items: center; 
     text-align: center;
 
+    
+
     div{
         display: flex;
         width: 50%;
         justify-content: space-around;
         margin: 2em auto;
 
+        svg {
+            margin-top: 0.5em;
+        }
+
         h3 {
             font-weight: 100;
             color: rgb(70, 70, 70);
+            font-size: 2em;
         }
     }
 
     button {
         background-color: rgb(62, 181, 240);
         color: rgb(70, 70, 70);
-        font-size: 0.6em;
+        font-size: 1em;
         font-weight: 100;
         border: none;
-        padding: 0.5em 2em;
+        padding: 1.5em 3em;
         transition: all 400ms;
         margin-bottom: 2em;
     }
@@ -151,6 +158,7 @@ const Content = style.div`
 
     h3 {
         font-weight: 100;
+        font-size: 1.5em;
         color: rgb(70, 70, 70);
     }
 
@@ -174,7 +182,7 @@ const Draw = style.div`
         width: 33%;
 
         h3{
-            font-size: 0.7em;
+            font-size: 1em;
         }
 
     }

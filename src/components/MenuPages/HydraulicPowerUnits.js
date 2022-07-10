@@ -31,7 +31,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -46,7 +46,7 @@ const Content = style.div`
 
     p  {
         color: rgb(70, 70, 70);
-        font-size: 0.6em;
+        font-size: 1.2em;
         line-height: 1.7em;
     }
      
@@ -55,11 +55,12 @@ const Content = style.div`
         font-weight: 400;
         text-align: center;
         margin: 1em 0;
+        font-size: 2em;
     }
 
     img {
         margin: 0 auto;
-        width: 8%;
+        width: 12%;
     }
 
 `

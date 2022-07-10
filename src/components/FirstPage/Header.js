@@ -229,10 +229,9 @@ function Header() {
               <img src="https://citylift.ru/wp-content/uploads/sert-electr-1200x843.jpg " alt="" />
             </Electr>
           </Lift>
-            <p>
+          <p>
               Наша продукция соответствует действующим стандартам качества и надежности, что подтверждено действующим сертификатом ГОСТ ISO 9001-2011 Системы менеджмента качества. Компания CITYLIFT является членом некоммерческого партнерства СРО «Российское лифтовое объединение», имеет все соответствующие сертификаты и разрешения на применение выпускаемой лифтовой продукции.
-            </p>
-
+          </p>
         </Sertificate>
         <Question>
           <First>
@@ -297,37 +296,38 @@ const PictureText = style.div `
   text-align: center;
   align-items: center;
   margin: 30vh auto;
-  width: 60vw;
+  width: 50vw;
 
     h1 {
-      font-size: 2.5em;
+      font-size: 3.4em;
       letter-spacing: 0.05em;
       margin-bottom: 0.3em;
-      line-height: 1.3em;
+      line-height: 1.6em;
     }
 
     h4 {
-      width: 35vw;
+      width: 30vw;
       background-color: rgba(0, 0, 0, 0.3);
       color: white;
       font-weight: 500;
-      line-height: 2em;
+      line-height: 1.5em;
       letter-spacing: 0.06em;
+      font-size: 1.55em;
     }
 
 
 `
 const BlueText = style.div `
-  margin-top: -1.2em;
+  margin-top: -4em;
   background-color: rgb(62, 181, 240);
-  padding: 2.2em 0;
+  padding: 3em 0;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 
   h1 {
-    font-size: 1.3em;
+    font-size: 1.7em;
     word-spacing: 0.3em;
     width: 70vw;
     color: rgb(51, 51, 51);
@@ -337,14 +337,14 @@ const BlueText = style.div `
   button {
     background-color: rgb(51, 51, 51);
     color: #fff;
-    padding: 0.4em 2em;
+    padding: 0.6em 2em;
     border: 1.5px solid #fff;
     position: absolute;
-    margin-top: 3.3em;
+    margin-top: 4.5em;
 
     a {
       color: #fff;
-      font-size: 0.650em;
+      font-size: 1.4em;
       letter-spacing: 0.2em;
       font-weight: 500;
     }
@@ -363,12 +363,13 @@ const ProfessionalLift = style.div `
 
   h3{
     font-weight: 500;
+    font-size: 2em;
     color: rgb(51, 51, 51);
   }
 
   p {
     color: rgb(51, 51, 51);
-    font-size: 0.7em;
+    font-size: 1.2em;
     line-height: 1.7em;
 
     span {
@@ -379,8 +380,8 @@ const ProfessionalLift = style.div `
 `
 
 const Line = style.div `
-  height: 0.1em;
-  width: 8em;
+  height: 0.15em;
+  width: 12em;
   background-color: rgb(62, 181, 240);
   margin: 1.5em 0;
 
@@ -392,6 +393,11 @@ const HowWork = style.div `
   align-items: center;
   text-align: center
   width: 80vw;
+
+  h3 {
+    font-size: 2em;
+    font-weight: 300;
+  }
 
 `
 
@@ -418,7 +424,7 @@ const Telephone = style.div`
   h3 {
     color: rgb(51, 51, 51);
     font-weight: 300;
-    font-size: 1.3em;
+    font-size: 2.5em;
     margin: 0.5em 0;
   }
 
@@ -450,11 +456,11 @@ const OurAdvantage = style.div`
   h3 {
     color: rgb(51, 51, 51);
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 2.2em;
   }
 
   p {
-    font-size: 0.7em;
+    font-size: 1em;
     color: rgb(51, 51, 51);
 
     span {
@@ -472,7 +478,7 @@ const Data = style.div `
   margin: 3em 0;
 `
 const Condition = style.div `
-  width: 22%;
+  width: 20%;
   display: flex;
   flex-direction : column;
   align-items: center;
@@ -480,7 +486,7 @@ const Condition = style.div `
 
 
   h3 {
-    font-size: 0.9em;
+    font-size: 1.6em;
     font-weight: 100;
     color: rgb(61, 61, 61);
     transition: all 150ms;
@@ -493,8 +499,9 @@ const Condition = style.div `
   }
 
   p {
+    text-align: center;
     color: rgb(51, 51, 51);
-    font-size: 0.65em;
+    font-size: 1.1em;
     word-spacing: 0.5em;
   }
 `
@@ -511,14 +518,15 @@ const Trust = style.div `
   h3 {
     color: rgb(51, 51, 51);
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 2em;
   }
 
   p {
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: rgb(51, 51, 51);
     font-weight: 300;
     line-height: 1.5em;
+    margin: 1.5em 0;
   }
 
 `
@@ -527,6 +535,7 @@ const Images = style.div `
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 65vw;
 
 `
 
@@ -539,7 +548,7 @@ const Image = style.div `
   }
 
   p {
-    font-size: 0.6em;
+    font-size: 1em;
     font-weight: 600;
   }
 
@@ -555,11 +564,12 @@ const Sertificate = style.div`
   h3 {
     color: rgb(51, 51, 51);
     font-weight: 500;
+    font-size: 2em;
   }
 
   p {
     width: 67vw;
-    font-size: 0.7em;
+    font-size: 1.1em;
     text-align: left;
   }
 
@@ -576,9 +586,18 @@ const Lift = style.div`
 `
 
 const Gydral = style.div `
+
+  h3{
+    font-size: 2em;
+    margin: 0.5em 0;
+  }
    
   img {
     width: 95%;
+  }
+
+  p {
+    font-size: 3em;
   }
 `
 
@@ -607,11 +626,11 @@ const First = style.div `
   text-align: left;
 
   h1{
-    font-size: 1em;
+    font-size: 3em;
     font-weight: 400;
   }
   p {
-    font-size: 0.8em;
+    font-size: 1em;
     word-spacing: 0.6em;
   }
 
@@ -625,15 +644,18 @@ const Second = style.div`
   text-align: center;
 
   button {
-    padding: 0.5em 2em;
+    padding: 1em 2em;
     color: rgb(51, 51, 51);
     background-color: rgb(62, 181, 240);
     border: none;
     margin: 1em 0;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
    
   p{ 
-    font-size: 0.6em; 
+    font-size: 1em; 
    }
 
 `

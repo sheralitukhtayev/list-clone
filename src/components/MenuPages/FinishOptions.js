@@ -27,7 +27,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -42,7 +42,7 @@ const Content = style.div`
     padding: 2em 0;
      
         img{
-            width: 32%;
+            width: 32.8%;
         }
 
 `

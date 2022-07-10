@@ -83,7 +83,8 @@ const Content = style.div `
 
 const Text = style.div`
     width: 33vw;
-    font-size: 0.60em;
+    font-size: 1em;
+    line-height: 1.4em;
     color: rgb(100, 100, 100);
     font-weight: 300;
     
@@ -108,9 +109,9 @@ const Input = style.div`
     flex-direction: column;
 
     input{
-        padding: 0.7em 1em;
+        padding: 1.5em 1em;
         margin: 1em 0;
-        font-size: 0.5em;
+        font-size: 1em;
         color: rgb(40, 40, 40);
         border: 0.3px solid rgb(221, 221, 221);
         border-radius: 0.3em;
@@ -137,12 +138,12 @@ const Input = style.div`
         h4 {
             color: rgb(50, 50, 50);
             font-weight: 400;
-            font-size: 0.7em;
+            font-size: 1.5em;
         }
     }
 
     p {
-        font-size: 0.48em;
+        font-size: 1em;
         color: rgb(71, 71, 71);
         text-align: center;
         margin: 1em 0;

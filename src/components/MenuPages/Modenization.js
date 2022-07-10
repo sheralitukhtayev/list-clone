@@ -79,7 +79,7 @@ const HeadTitle = style.div`
     padding: 1em 0;
 
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -95,19 +95,19 @@ const Content = style.div`
     color: rgb(80, 80, 80);
 
         p{
-            font-size: 0.7em;
+            font-size: 1.2em;
             line-height: 1.7em;
         }
 
         h3{
             font-weight: 700;
             color: rgb(60, 60, 60);
-            font-size: 0.8em;
+            font-size: 1.6em;
             padding: 1em 0;
         }
          
         li{
-            font-size: 0.6em;
+            font-size: 1em;
             margin: 0.5em 0 0.5em 1.5em;
             list-style-type: circle;
         }
